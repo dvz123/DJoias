@@ -1,0 +1,110 @@
+.header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #03583f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header-nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header-nav a {
+    color: #555;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .header-nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #03583f;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+  }
+  
+  .header-nav a:hover {
+    color: #03583f;
+  }
+  
+  .header-nav a:hover::after {
+    width: 100%;
+  }
+  
+  .header-btn {
+    background-color: #03583f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-btn:hover {
+    background-color: #024331;
+  }
+  
+
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background: #03583f;
+    border-radius: 2px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .header-nav {
+      position: absolute;
+      top: 80px;
+      right: 0;
+      background: white;
+      flex-direction: column;
+      width: 200px;
+      padding: 20px;
+      gap: 20px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+      display: none;
+    }
+  
+    .header-nav.open {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: flex;
+    }
+  
+    .header-btn {
+      display: none;
+    }
+  }
+  

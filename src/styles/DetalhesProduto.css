@@ -1,0 +1,71 @@
+.detalhes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.imagem-container img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.info-container {
+  max-width: 600px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.info-container h2 {
+  font-size: 2rem;
+  color: #03583f;
+  margin-bottom: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+.descricao {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.preco {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #03583f;
+  margin-bottom: 25px;
+}
+
+.botao-comprar {
+  background-color: #03583f;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-comprar:hover {
+  background-color: #024331;
+}
+
+/* Responsivo */
+@media (min-width: 768px) {
+  .detalhes-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    align-items: flex-start;
+  }
+
+  .info-container {
+    text-align: left;
+    margin-top: 0;
+  }
+}

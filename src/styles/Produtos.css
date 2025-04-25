@@ -1,0 +1,21 @@
+.produtos-page {
+  padding: 40px 20px;
+  background-color: #fafafa;
+  min-height: 80vh;
+}
+
+.produtos-titulo {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+  font-family: 'Playfair Display', serif;
+}
+
+.produtos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

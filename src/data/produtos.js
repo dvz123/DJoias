@@ -1,0 +1,113 @@
+const produtos = [
+    {
+      id: 1,
+      nome: "Colar de Pérolas Outono",
+      preco: "R$ 199,90",
+      imagem: require("../assets/img/colar1.jpg"),
+      descricao: "Colar elegante com pérolas naturais e fecho em prata 925 inspirado no outono.",
+      colecao: "Outono",
+    },
+    {
+      id: 2,
+      nome: "Brinco de Ouro Outono",
+      preco: "R$ 329,00",
+      imagem: require("../assets/img/brinco1.jpg"),
+      descricao: "Brinco delicado em ouro 18k, perfeito para ocasiões especiais inspirado no outono.",
+      colecao: "Outono",
+    },
+    {
+      id: 3,
+      nome: "Pulseira de Prata Outono",
+      preco: "R$ 149,50",
+      imagem: require("../assets/img/pulseira1.jpg"),
+      descricao: "Pulseira clássica de prata 925 com detalhes artesanais inspirado no outono.",
+      colecao: "Outono",
+    },
+    {
+      id: 4,
+      nome: "Anel de Diamante",
+      preco: "R$ 999,00",
+      imagem: require("../assets/img/anel1.jpg"),
+      descricao: "Anel sofisticado com diamante central, ideal para momentos especiais.",
+    },
+    {
+      id: 5,
+      nome: "Brinco de Esmeralda",
+      preco: "R$ 799,00",
+      imagem: require("../assets/img/brinco-esmeralda.jpg"),
+      descricao: "Brinco elegante com esmeraldas e pedras preciosas, feito em ouro branco.",
+    },
+    {
+      id: 6,
+      nome: "Colar de Ouro com Cristais",
+      preco: "R$ 450,00",
+      imagem: require("../assets/img/colar-ouro-cristais.jpg"),
+      descricao: "Colar sofisticado com cristais brilhantes, banhado a ouro 18k.",
+    },
+    {
+      id: 7,
+      nome: "Anel Solitário",
+      preco: "R$ 750,00",
+      imagem: require("../assets/img/anel-solitario.jpg"),
+      descricao: "Anel de noivado com diamante solitário, símbolo do amor eterno.",
+    },
+    {
+      id: 8,
+      nome: "Pulseira de Ouro",
+      preco: "R$ 349,90",
+      imagem: require("../assets/img/pulseira-ouro.jpg"),
+      descricao: "Pulseira em ouro 18k, com design moderno e acabamento polido.",
+    },
+    {
+      id: 9,
+      nome: "Brinco de Pérola",
+      preco: "R$ 129,90",
+      imagem: require("../assets/img/brinco-perola.jpg"),
+      descricao: "Brinco clássico com pérola cultivada, ideal para ocasiões formais.",
+    },
+    {
+      id: 10,
+      nome: "Colar de Rubi",
+      preco: "R$ 599,90",
+      imagem: require("../assets/img/colar-rubi.jpg"),
+      descricao: "Colar elegante com rubis naturais, feito em ouro 18k.",
+    },
+    {
+      id: 11,
+      nome: "Cinto de Ouro com Cristais",
+      preco: "R$ 399,90",
+      imagem: require("../assets/img/cinto-ouro.jpg"),
+      descricao: "Cinto sofisticado de ouro com cristais Swarovski, perfeito para complementar o look.",
+    },
+    {
+      id: 12,
+      nome: "Anel de Ouro Rosé",
+      preco: "R$ 650,00",
+      imagem: require("../assets/img/anel-ouro-rose.jpg"),
+      descricao: "Anel delicado em ouro rosé, com design moderno e atemporal.",
+    },
+    {
+      id: 13,
+      nome: "Brinco de Topázio Azul",
+      preco: "R$ 479,00",
+      imagem: require("../assets/img/brinco-topazio.jpg"),
+      descricao: "Brinco em prata 18k com topázio azul, destacando a beleza da pedra.",
+    },
+    {
+      id: 14,
+      nome: "Colar de Safira",
+      preco: "R$ 850,00",
+      imagem: require("../assets/img/colar-safira.jpg"),
+      descricao: "Colar sofisticado com safira azul, montado em ouro branco.",
+    },
+    {
+      id: 15,
+      nome: "Pulseira de Diamante",
+      preco: "R$ 1.200,00",
+      imagem: require("../assets/img/pulseira-diamante.jpg"),
+      descricao: "Pulseira luxuosa com diamantes, projetada para ocasiões especiais.",
+    }
+  ];
+  
+  export default produtos;
+  

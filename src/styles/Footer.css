@@ -1,0 +1,49 @@
+.footer {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 60px;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+}
+
+.footer-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #03583f;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 0.95rem;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.footer-socials {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-socials a {
+  text-decoration: none;
+  color: #03583f;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #024331;
+}
+
+.footer-copy {
+  font-size: 0.85rem;
+  color: #999;
+}

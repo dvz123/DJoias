@@ -1,0 +1,54 @@
+.contato-container {
+  padding: 60px 20px;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+.contato-titulo {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #03583f;
+  font-family: 'Playfair Display', serif;
+}
+
+.contato-descricao {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.formulario-contato {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: none;
+}
+
+.formulario-contato textarea {
+  height: 150px;
+}
+
+.formulario-contato button {
+  background-color: #03583f;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-contato button:hover {
+  background-color: #024331;
+}

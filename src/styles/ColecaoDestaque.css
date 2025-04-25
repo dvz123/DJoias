@@ -1,0 +1,83 @@
+.colecao-destaque {
+  padding: 80px 50px;
+  background-color: #fafafa;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.colecao-destaque h2 {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  color: #03583f;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.colecao-destaque p {
+  font-size: 1.1rem;
+  font-family: 'Lora', serif;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+
+.colecao-destaque img {
+  width: 100%;               
+  max-height: 300px;          
+  height: auto;             
+  object-fit: cover;          
+  display: block;            
+  margin: 0 auto;            
+  border-radius: 8px;         
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.destaque-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 40px;
+}
+
+.destaque-item {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destaque-item:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.destaque-item img {
+  width: 100%;
+  max-height: 300px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.destaque-item img:hover {
+  transform: scale(1.05);
+}
+
+.destaque-item h3 {
+  margin: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.destaque-item p {
+  font-family: 'Lora', serif;
+  color: #777;
+  font-size: 1rem;
+  margin: 0 20px 20px;
+  line-height: 1.5;
+}

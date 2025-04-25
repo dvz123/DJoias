@@ -1,0 +1,36 @@
+.newsletter {
+  background-color: #03583f;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px 20px;
+  width: 280px;
+  max-width: 100%;
+  margin-right: 10px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
+
+.newsletter button {
+  background: white;
+  color: #03583f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.newsletter button:hover {
+  background-color: #f2f2f2;
+}
